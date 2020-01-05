@@ -38,7 +38,7 @@ h1 {
 h2 {
 	color: #610d7a;
 	font-size: 40px;
-	margin: 50px 0;
+	margin: 35px 0;
 }
 
 #reg-items {
@@ -50,7 +50,7 @@ h2 {
 	text-align: center;
 	margin: 180px 0;
 	width: 550px;
-	height: 305px;
+	height: 315px;
 	border: 2px solid #679965;
 	border-radius: 10px;
 	padding-top: 150px;
@@ -100,7 +100,7 @@ button:hover {
 	display: block;
 	padding: 15px 20px;
 	box-sizing: border-box;
-	margin: 30px 10%;
+	margin: 20px 10%;
 	border-radius: 6px;
 	border: 0 solid;
 	/*border: 2px solid black;*/
@@ -113,6 +113,7 @@ button:hover {
 	background-color: #fff;
 	border-radius: 6px;
 	/*border: 0 solid;*/
+	padding: 18px 23px;
 	border: 1px solid #610d7a;
 	border-top-left-radius: 1px;
 	border-bottom-left-radius: 1px;
@@ -121,22 +122,188 @@ button:hover {
 }
 
 #signup-div button {
-	margin: 20px 0;
-	margin-left: 33%;
+	margin: 23px 0;
+	margin-left: 45%;
 }
 
 
 #login-div input {
-	margin: 60px 10%;
+	margin: 30px 10%;
 }
 
 #login-div button {
-	margin: 30px 0;
-	margin-left: 33%;
+	margin: 45
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	px 0;
+	margin-left: 45%;
 }
 
 #login-div h2 {
-	margin: 80px 0;
+	margin: 60px 0;
 }
 
 #divider {
