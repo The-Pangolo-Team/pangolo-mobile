@@ -1,36 +1,37 @@
-$("#signup-options button").first().click(function(){
-	$("#signup-div").slideDown(600, function(){
-		$("#return").removeClass("hide");
-	});
-	$(this).addClass("hide");
-	$("#login-options").addClass("hide");
-	$("#divider").addClass("hide");
-	$("#return").removeClass("hide");
+var signupButton = document.querySelector("#signup-options button");
+var loginButton = document.querySelector("#login-options button");
+var signupOptions = document.getElementById("signup-options");
+var divider = document.getElementById("divider");
+var regDivs = document.querySelectorAll(".reg-divs")
+var loginOptions = document.querySelector("#login-options ");
+var signupDiv = document.querySelector("#signup-div")
+var loginDiv = document.querySelector("#login-div")
+var backBtn = document.getElementById("return");
+
+
+
+signupButton.addEventListener("click", function() {
+	// window.scrollBy(0, 2500);
+	this.classList.add("hide");
+	backBtn.classList.remove("hide");
+	signupDiv.classList.remove("hide");
+	divider.classList.add("hide");
+	loginButton.classList.add("hide");
 });
 
-$("#login-options button").first().click(function(){
-	$("#login-div").slideDown(600, function(){
-		$("#return").removeClass("hide");
-	});
-	$(this).addClass("hide");
-	$("#signup-options").addClass("hide");
-	$("#divider").addClass("hide");
+loginButton.addEventListener("click", function() {
+	this.classList.add("hide");
+	backBtn.classList.remove("hide");
+	loginDiv.classList.remove("hide");
+	divider.classList.add("hide");
+	signupButton.classList.add("hide");
 });
 
-$("#return button").click(function(){
-	// return to original landing page
-	$("#login-div").slideUp(600, function(){
-	// hide the return button
-		$("#signup-options").removeClass("hide");
-		$("#login-options button").removeClass("hide");
-		$("#return").addClass("hide");
-		$("#divider").removeClass("hide");
-	});
-	$("#signup-div").slideUp(600, function(){
-		// hide the return button
-		$("#signup-options button").removeClass("hide");
-		$("#login-options").removeClass("hide");
-		$("#return").addClass("hide");
-		// $("#divider").removeClass("hide");
-	})
-});
+backBtn.addEventListener("click", function() {
+	this.classList.add("hide");
+	loginDiv.classList.add("hide");
+	signupDiv.classList.add("hide");
+	loginButton.classList.remove("hide");
+	signupButton.classList.remove("hide");
+	divider.classList.remove("hide");
+})
